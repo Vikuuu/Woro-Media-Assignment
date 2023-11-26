@@ -55,7 +55,6 @@ INSTALLED_APPS = [
     "allauth.socialaccount.providers.google",
     # django apps
     "accounts",
-    "social",
 ]
 
 SITE_ID = 1
