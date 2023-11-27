@@ -134,31 +134,39 @@ routes = [
 ### User Sign-Up and Login API:
 
 ● Created REST API endpoints for user sign-up and login using Django REST framework implementing JWT(JSON Web Token) authentication using `djangorestframework-simplejwt`.
+
 ● Implemented user registration with email, password, and username.
+
 ● Generated a confirmation email with a unique token upon user registration for email verification.
 
 ### Confirmation Email:
 
 ● Implemented an API endpoint for verifying the user's email address using the confirmation token sent via email.
+
 ● Once the user clicks on the confirmation link, verifying the token and activate the user account
 
 ### Social Platform Integration:
 
 ● Integrate social authentication (Google) using django-allauth libraries.
+
 ● Create API endpoints that enable users to sign up and log in using their social platform accounts.
 
 ### Database Interaction:
+
 ● Configure database models to store user information, including email, password (hashed), and confirmation status.
 
 ### Enhanced Security Measures:
 
 ● Implemented JWT (JSON Web Tokens) authentication for API endpoints using djangorestframework-simplejwt.
+
 ● Appled rate limiting to API endpoints to prevent abuse or brute-force attacks.
+
 ● Validated and sanitized user input to mitigate security vulnerabilities (e.g., SQL injection, XSS).
 
 ### Caching Strategies:
 
 ● Implemented caching mechanisms for API responses to improve performance using Django's caching framework.
+
 ● Applied appropriate Cache-Control headers in API responses to control caching behavior.
 
 
