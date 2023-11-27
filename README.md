@@ -54,6 +54,43 @@ py manage.py runserver
 
 Now you are good to go.
 
+# Social Media Login Setup
+
+To use the social media login feature follow these steps to enable it
+
+-->Navigate to `http://localhost:8000/admin/` and enter your super user credentials
+
+-->Click on `"Social applications"`.
+
+![image](https://github.com/Vikuuu/Woro-Media-Assignment/assets/125040659/f33d9545-c8ea-4ae3-b78a-2555e3596c3c)
+
+-->Click on `"ADD SOCIAL APPLICATION"`.
+
+![image](https://github.com/Vikuuu/Woro-Media-Assignment/assets/125040659/347df734-28e7-402a-86e3-c8c5fb010167)
+
+-->In the provider dropdown, select the option `Google`.
+
+![image](https://github.com/Vikuuu/Woro-Media-Assignment/assets/125040659/5fefcfd5-3d94-4951-bb28-5ed99d7ca47c)
+
+-->In the `Name` field enter the name of your choice or enter "GOOGLE".
+
+![image](https://github.com/Vikuuu/Woro-Media-Assignment/assets/125040659/2bc043cc-6bad-4bb1-8381-cd049d652d76)
+
+-->Add the `Client ID` from the `.env.local` file.
+
+![image](https://github.com/Vikuuu/Woro-Media-Assignment/assets/125040659/05a33e2f-aae0-40c2-bd25-e9f702a78873)
+
+-->Add the `Secret Key` from the `.env.local` file.
+
+![image](https://github.com/Vikuuu/Woro-Media-Assignment/assets/125040659/8dad4dc0-7332-4aa1-a9f1-4a4641e12044)
+
+-->In `Sites` option double-click the `localhost:8000`.
+
+![image](https://github.com/Vikuuu/Woro-Media-Assignment/assets/125040659/30f5de8f-aa8c-4a10-959d-527bcae9ad6a)
+
+-->Click `Save` to save all the changes
+![image](https://github.com/Vikuuu/Woro-Media-Assignment/assets/125040659/5e42a95c-4231-4bbf-b06f-bee59592a876)
+
 
 # API Documentation
 
