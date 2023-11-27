@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "fa4c831b10c41434c93eec51ebe1e00ad7e30a7e630431eb1b92ea6ba9d433a4"
+            "sha256": "65a766af5c88630acab8855101339447175e3c1db777455e54ea2938bb9b65f0"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -217,11 +217,11 @@
         },
         "defusedxml": {
             "hashes": [
-                "sha256:138c7d540a78775182206c7c97fe65b246a2f40b29471e1a2f1b0da76e7a3942",
-                "sha256:1c812964311154c3bf4aaf3bc1443b31ee13530b7f255eaaa062c0553c76103d"
+                "sha256:1bb3032db185915b62d7c6209c5a8792be6a32ab2fedacc84e01b52c51aa3e69",
+                "sha256:a352e7e428770286cc899e2542b6cdaedb2b4953ff269a210103ec58f6198a61"
             ],
-            "markers": "python_version >= '3.6'",
-            "version": "==0.8.0rc2"
+            "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4'",
+            "version": "==0.7.1"
         },
         "django": {
             "hashes": [
@@ -239,13 +239,6 @@
             "index": "pypi",
             "markers": "python_version >= '3.7'",
             "version": "==0.58.2"
-        },
-        "django-templated-mail": {
-            "hashes": [
-                "sha256:8db807effebb42a532622e2d142dfd453dafcd0d7794c4c3332acb90656315f9",
-                "sha256:f7127e1e31d7cad4e6c4b4801d25814d4b8782627ead76f4a75b3b7650687556"
-            ],
-            "version": "==1.1.1"
         },
         "djangorestframework": {
             "hashes": [
@@ -265,22 +258,13 @@
             "markers": "python_version >= '3.7'",
             "version": "==5.3.0"
         },
-        "djoser": {
-            "hashes": [
-                "sha256:9deb831a1c8781ceff325699e1407b4e1be8b4588e87071621d88ba31c09349f",
-                "sha256:efb91ad61e4d5b8d664db029b5947df9d34078289ef2680a1ab665e047144b74"
-            ],
-            "index": "pypi",
-            "markers": "python_version >= '3.8' and python_version < '4.0'",
-            "version": "==2.2.2"
-        },
         "idna": {
             "hashes": [
-                "sha256:27009fe2735bf8723353582d48575b23c533cc2c2de7b5a68908d91b5eb18d08",
-                "sha256:79b8f0ac92d2351be5f6122356c9a592c96d81c9a79e4b488bf2a6a15f88057a"
+                "sha256:9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca",
+                "sha256:c05567e9c24a6b9faaa835c4821bad0590fbb9d5779e7caa6e1cc4978e7eb24f"
             ],
             "markers": "python_version >= '3.5'",
-            "version": "==3.5"
+            "version": "==3.6"
         },
         "oauthlib": {
             "hashes": [
@@ -346,22 +330,6 @@
             ],
             "markers": "python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3'",
             "version": "==1.3.1"
-        },
-        "social-auth-app-django": {
-            "hashes": [
-                "sha256:09ac02a063cb313eed5e9ef2f9ac4477c8bf5bbd685925ff3aba43f9072f1bbb",
-                "sha256:28c65b2e2092f30cdb3cf912eeaa6988b49fdf4001b29bd89e683673d700a38e"
-            ],
-            "markers": "python_version >= '3.8'",
-            "version": "==5.4.0"
-        },
-        "social-auth-core": {
-            "hashes": [
-                "sha256:3d4154f45c0bacffe54ccf4361bce7e66cf5f5cd1bb0ebb7507ad09a1b07d9d9",
-                "sha256:f4ae5d8e503a401f319498bcad59fd1f6c473517eeae89c22299250f63c33365"
-            ],
-            "markers": "python_version >= '3.8'",
-            "version": "==4.5.0"
         },
         "sqlparse": {
             "hashes": [
