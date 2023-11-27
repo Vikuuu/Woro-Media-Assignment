@@ -5,7 +5,7 @@
 1. Clone the repository using this command:
 
 ```
-gh repo clone Vikuuu/Woro-Media-Assignment
+git clone https://github.com/Vikuuu/Woro-Media-Assignment.git
 ```
 
 2. Move into the project directory:
